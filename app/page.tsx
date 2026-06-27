@@ -84,14 +84,15 @@ export default function Home() {
               メンバーへの感謝を、石垣島の地元店舗で使えるポイントとして贈れるサービス。
               従業員特典・地域メンバー特典など、組織の「ありがとう」を形にします。
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 items-center">
+              <AppStoreBadge href="https://apps.apple.com/jp/app/ishigaki-pay/id6783578773" />
               <a
                 href="https://ishigakipay.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white text-sm font-semibold px-6 py-3 rounded-xl transition-colors"
+                className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm font-medium transition-colors py-3"
               >
-                サービスを見る
+                詳しく見る
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
@@ -156,7 +157,7 @@ export default function Home() {
             <div className="py-5 grid grid-cols-3 gap-4">
               <dt className="text-sm font-semibold text-gray-500">グループ</dt>
               <dd className="text-sm text-gray-900 col-span-2">
-                <a href="https://sandkholdings.co.jp/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 underline underline-offset-2 decoration-gray-300 hover:decoration-gray-600 transition-colors">S&amp;K Holdings グループ</a>
+                <a href="https://sandkholdings.co.jp/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 underline underline-offset-2 decoration-gray-300 hover:decoration-gray-600 transition-colors">S&amp;K Holdings</a>
               </dd>
             </div>
           </dl>
