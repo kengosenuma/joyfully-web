@@ -153,6 +153,12 @@ export default function Home() {
                 <dd className="text-sm text-gray-900 col-span-2 whitespace-pre-line">{dd}</dd>
               </div>
             ))}
+            <div className="py-5 grid grid-cols-3 gap-4">
+              <dt className="text-sm font-semibold text-gray-500">グループ</dt>
+              <dd className="text-sm text-gray-900 col-span-2">
+                <a href="https://sandkholdings.co.jp/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 underline underline-offset-2 decoration-gray-300 hover:decoration-gray-600 transition-colors">S&amp;K Holdings グループ</a>
+              </dd>
+            </div>
           </dl>
         </div>
       </section>
