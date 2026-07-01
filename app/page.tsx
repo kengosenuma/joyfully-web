@@ -51,9 +51,9 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-[1.05] tracking-tight">
-              人が使いたくなる<br />
+              小さなうれしいを、<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-teal-400">
-                アプリをつくる。
+                プロダクトに。
               </span>
             </h1>
           </div>
